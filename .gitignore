@@ -1,0 +1,12 @@
+
+# IDE files
+.idea
+*.iml
+/.classpath
+/.project
+/.settings
+/extras
+/bin
+/.externalToolBuilders
+
+/node_modules
