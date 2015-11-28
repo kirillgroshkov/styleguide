@@ -12,7 +12,10 @@
 
 ## One-line breaks to split logical blocks
 
-Always before and after container, row, column
+Always split 2 containers / rows / columns following each other with 1 empty line.
+
+Don't split different items (e.g row following a container)
+
 
     /* avoid */
     <div class="container">
@@ -36,32 +39,26 @@ Always before and after container, row, column
 
 
     /* recommended */
-    <div class="container">
-    
-      <div class="row">
-      
+    <div class="container">    
+      <div class="row">      
         <div class="col">
             Some content
         </div>
         
         <div class="col">
             Some content
-        </div>
-        
+        </div>      
       </div>
       
-      <div class="row">
-      
+      <div class="row">      
         <div class="col">
             Some content
         </div>
         
         <div class="col">
             Some content
-        </div>
-        
-      </div>
-      
+        </div>        
+      </div>      
     </div>
 
 ...
